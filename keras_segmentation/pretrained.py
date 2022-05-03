@@ -67,8 +67,8 @@ def pspnet_101_cityscapes():
 def pspnet_101_voc12():
 
     model_config = {
-        "input_height": 473,
-        "input_width": 473,
+        "input_height": 1200,
+        "input_width": 1796,
         "n_classes": 21,
         "model_class": "pspnet_101",
     }
